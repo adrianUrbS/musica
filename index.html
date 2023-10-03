@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musica IA</title>
+    <link rel="shortcut icon" href="icons8-escuchar-música-100.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="musica.jpg">
+    <div class="titulo">
+
+        <h1>Musica IA</h1>
+        <p>Mueve tus manos de arriba hacia abajo para controlar el volumen y la velocidad de la cancion</p>    
+    </div>
+    <div style="float:left">
+        <img src="musica_2.gif" alt="">
+        <h2>velocidad</h2>
+    </div>
+    <div style="float:right">
+        <img src="musica_2.gif" alt="">
+        <h2>volumen</h2>
+    </div>
+
+    <button onclick="reproducir()">Play ▶️</button>
+    <button onclick="detener()">Stop ⏹️</button>
+    <br>
+    <script src="main.js"></script>
+</body>
+</html>

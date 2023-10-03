@@ -1,0 +1,25 @@
+body{
+    background-size: cover;
+    height: 85vh;
+    margin: 0;
+    text-align: center;
+}
+.titulo{
+    background: linear-gradient(blue, white);
+}
+h1{
+    margin: 0;
+}
+img{
+    width: 280px;
+}
+h2{
+    background-color: rgba(black, rgb(255, 255, 255), blue, alpha);
+    border-radius: 20px;
+}
+
+button{
+    font-size: 25px;
+    border-radius: 10px;
+    color: blue;
+}
